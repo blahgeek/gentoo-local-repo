@@ -1,0 +1,2 @@
+#!/bin/bash
+exec firejail --profile=feishu /opt/bytedance/feishu/bytedance-feishu $@
